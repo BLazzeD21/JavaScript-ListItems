@@ -32,7 +32,7 @@ function createItemList(item, parent) {
     item.forEach((itm, i) => {
         parent.innerHTML += `
         <li class="add-item">
-            <input type="checkbox" name="check" class = "checkBoxEnabled"><span>${i + 1}: ${itm}</span>
+            <input type="checkbox" name="check" class = "checkBoxEnabled">${i + 1}: <span>${itm}</span>
             <div class="delete">
                 <img src="img/trash.png" alt="trash" class = "trash">
             </div> 
