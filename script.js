@@ -49,18 +49,17 @@ function createItemList(item, parent) {
         });
     });
 
-    document.querySelectorAll('checkBoxEnabled')
-   /* document.querySelectorAll('#checkBoxEnabled').forEach((btn, i) => {
-        btn.addEventListener('click', () => {
-            let headingElement = document.querySelector('#checkBoxEnabled');
-            headingElement.style.color = 'violet';
-            createItemList(item, parent)
-        });
-    });
-    */
-
-    document.querySelector('')
 };
+
+const checkbox = document.getElementById('myCheckbox')
+
+checkbox.addEventListener('change', (event) => {
+  if (event.currentTarget.checked) {
+    alert('checked');
+  } else {
+    alert('not checked');
+  }
+})
 
 
 createItemList(itemDB.items, itemsLIst);

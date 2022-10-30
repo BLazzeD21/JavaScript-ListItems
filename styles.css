@@ -19,38 +19,13 @@
     height: 20px;
 }  
 
-/* .add-items {
-    position: relative;
-    display: inline-block;
-
-}
-.add-items:before {
-    position: absolute;
-    display: block;
-    bottom: -5px;
-
-}
-.delete{
-    bottom: -5px;
-    right: 0%;
-    top: 50%;
-    display: block;
-    position: absolute;
-    cursor: pointer;
-    
-}
-
-.add-list {
-    display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-} */
-
 .add li {
     display: flex;
     flex-direction: row;
 }
 
-.add-item span {
-    text-decoration:line-through;
-}
+.checkBoxEnabled:checked ~ span {
+    text-decoration: line-through;
+  }
+
+  
