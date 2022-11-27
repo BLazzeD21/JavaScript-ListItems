@@ -1,1 +1,1 @@
-# script3-Js college
+# Javascript third script
