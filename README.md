@@ -1,1 +1,1 @@
-# Javascript third script
+# JavaScript list items
